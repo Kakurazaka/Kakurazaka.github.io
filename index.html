@@ -35,10 +35,21 @@
 <ul>
 <li>記事ページへのリンク</li>
 <li>記事ページへのリンク</li>
-btn.onclick = () =>{	
-    const str = 'mebee';
-    document.write( str.link("https://mebee.info/") );
-}
+<input id="btn" type="button" value="ボタン"/>
+
+<script>
+
+'use strict';
+
+document.getElementById('btn').onclick = function(){ 
+
+      const str = 'mebee';
+
+      // リンクを作成
+      document.write( str.link("https://mebee.info/") );
+
+};
+<script>
 </ul>
 </div>
 </div>
